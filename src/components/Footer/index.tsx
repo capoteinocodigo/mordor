@@ -19,36 +19,36 @@ export const Footer = ({ withBackground = false }: FooterProps) => {
         <div className={styles.container}>
           <div className={styles.titleBox}>
             <h2>
-              <span>Let`s talk about</span> your new brand
+              <span>Vamos falar sobre</span> sua nova marca
             </h2>
           </div>
 
           <div className={styles.content}>
             <div className={styles.agency}>
-              <h3>Agency</h3>
+              <h3>Agência</h3>
 
-              <p>Rua Costa Cabral 2602 Porto, Portugal</p>
+              <p>Rua havai 733, Sumaré</p>
             </div>
 
             <div className={styles.phone}>
-              <h3>Phone</h3>
+              <h3>Telefone</h3>
 
-              <p>+933 010 888</p>
+              <p>+61 98167-3867</p>
             </div>
 
             <div className={styles.email}>
               <h3>Email</h3>
 
-              <p>contact@mordor.design</p>
+              <p>contato@mordor.digital</p>
             </div>
           </div>
 
           <div className={styles.copyright}>
-            <p>All rights reserved for</p>
+            <p>Todos os direitos reservados para</p>
 
             <Image src={Decoration} alt="Decoração" />
 
-            <p>Mordor Design and experience</p>
+            <p>Mordor Design e experiência</p>
           </div>
         </div>
       </AnimationOnScroll>

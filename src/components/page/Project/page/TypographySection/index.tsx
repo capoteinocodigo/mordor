@@ -7,22 +7,21 @@ import ColorImage from '../../../../../../public/project/images/brisascor.webp'
 export const TypographySection = () => {
   return (
     <section className={styles.typographySection}>
-      <h2>Institutional chrome and typography</h2>
+      <h2>Cromática institucional e tipografia</h2>
 
       <div className={styles.text}>
         <p>
-          The institutional color defined for the brand is mixed with vibrant
-          shades of green, orange and burgundy. The colors were designed to
-          transmit energy and liveliness, values intrinsic to the brand, in
-          addition, an auxiliary color palette was designed for each sub-brand
-          of architecture.
+          A cor institucional definida para a marca é misturada com tons vibrantes
+          de verde, laranja e bordô. As cores foram projetadas para transmitir
+          energia e vivacidade, valores intrínsecos à marca. Além disso, uma
+          paleta de cores auxiliar foi projetada para cada submarca de arquitetura.
         </p>
 
         <p>
-          The typographic family chosen for the brand was Code Pro, a refined,
-          modern option, with a contemporary style that conveys confidence and
-          security, in addition to providing a good application for title and
-          text both online and offline.
+          A família tipográfica escolhida para a marca foi a Code Pro, uma opção
+          refinada e moderna, com um estilo contemporâneo que transmite confiança
+          e segurança, além de proporcionar uma boa aplicação para títulos e textos
+          tanto online quanto offline.
         </p>
       </div>
 

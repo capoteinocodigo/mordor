@@ -3,18 +3,18 @@ import styles from './styles.module.scss'
 export const ApplicationMaterials = () => {
   return (
     <section className={styles.applicationMaterials}>
-      <h2>Application materials</h2>
+      <h2>Materiais de aplicação</h2>
 
       <div className={styles.text}>
         <p>
-          From stationery to offline communication, all the materials created
-          for the launch of the brand and massification of the identity in the
-          consumer`s mind.
+          Desde papelaria até comunicação offline, todos os materiais criados
+          para o lançamento da marca e massificação da identidade na mente do
+          consumidor.
         </p>
 
         <p>
-          Offline materials feature pantone printing and special laminations to
-          make the material experience even more interesting.
+          Os materiais offline apresentam impressão pantone e laminações especiais
+          para tornar a experiência do material ainda mais interessante.
         </p>
       </div>
     </section>

@@ -18,7 +18,7 @@ export const AboutProjectText = () => {
       <div className={styles.title}>
         <AnimationOnScroll animateIn="animate__fadeInLeft">
           <h2>
-            A new development <br /> in Belo Horizonte
+            Um novo empreendimento <br /> em Belo Horizonte
           </h2>
         </AnimationOnScroll>
 
@@ -30,17 +30,15 @@ export const AboutProjectText = () => {
       <AnimationOnScroll animateIn="animate__fadeInLeft">
         <div className={styles.text}>
           <p>
-            A new venture in the heart of Belo Horizonte with the proposal to
-            live with quality of life, a sublime experience that will bring
-            together the best of architecture with the proximity of nature, this
-            is Brisas Pampulha
+            Um novo empreendimento no coração de Belo Horizonte com a proposta de
+            viver com qualidade de vida, uma experiência sublime que reunirá o melhor
+            da arquitetura com a proximidade da natureza, isso é o Brisas Pampulha.
           </p>
 
           <p>
-            The great challenge in creating the Brisas brand was to bring
-            together in a single symbol the ideia of lightness, modernity and
-            refinement, in addition to building a visual universe that was
-            expansive enough to be work on several fronts
+            O grande desafio na criação da marca Brisas foi reunir em um único símbolo
+            a ideia de leveza, modernidade e refinamento, além de construir um universo
+            visual que fosse expansivo o suficiente para atuar em diversas frentes.
           </p>
         </div>
       </AnimationOnScroll>
@@ -53,8 +51,7 @@ export const AboutProjectText = () => {
         <AnimationOnScroll animateIn="animate__fadeInRight">
           <div>
             <h3>
-              I agree to go to a place where the only noise is the breeze and
-              the peace of your touch on the skin
+              Concordo em ir para um lugar onde o único som é a brisa e a paz do seu toque na pele
             </h3>
 
             <span>Luis Fonseca</span>
@@ -64,13 +61,13 @@ export const AboutProjectText = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInUp">
         <p>
-          The Brisas brand seeks to portray in an iconographic way the literal
-          meaning of the word, as a gentle movement of the wind that reaches the
-          most varied surfaces in an endless cyclic process. At the same time,
-          the brand works on a more affective level by portraying the lightness
-          and good feeling described by the poet Luis Fonseca. Still in time, it
-          is worth noting that the symbol still depicts the first letter of the
-          naming, the letter &rdquo;B&rdquo; in the creation of the symbol
+          A marca Brisas busca retratar de forma iconográfica o significado literal
+          da palavra, como um movimento suave do vento que atinge as mais variadas
+          superfícies em um processo cíclico interminável. Ao mesmo tempo, a marca
+          trabalha em um nível mais afetivo, retratando a leveza e a boa sensação
+          descrita pelo poeta Luis Fonseca. Ainda assim, vale destacar que o símbolo
+          ainda retrata a primeira letra do nome, a letra &rdquo;B&rdquo; na criação
+          do símbolo.
         </p>
       </AnimationOnScroll>
     </section>

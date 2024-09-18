@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mordor | Branding and brand experience studio</title>
+        <title>Mordor | Estúdio de branding e experiência de marca</title>
       </Head>
 
       <Header />

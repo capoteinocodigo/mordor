@@ -33,8 +33,8 @@ export const BestWorkComponent = ({
           <p>{titlename}</p>
 
           <div className={styles.link}>
-            <a href={link} aria-label={`See more ${title}`}>
-              See more
+            <a href={link} aria-label={`Veja mais ${title}`}>
+              Veja mais
             </a>
 
             <Image src={Decoration} alt="Decoração" />
@@ -54,7 +54,7 @@ export const BestWorkComponent = ({
         <p>{titlename}</p>
 
         <div className={styles.link}>
-          <a href={link}>See more</a>
+          <a href={link}>Veja mais</a>
 
           <Image src={Decoration} alt="Decoração" />
         </div>

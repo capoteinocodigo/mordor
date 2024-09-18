@@ -12,21 +12,21 @@ export const AboutProjectBox = () => {
         <div className={styles.aboutTextBox}>
           <div className={styles.title}>
             <h3>
-              <span>Let`s talk about</span> Brisas Pampulha{' '}
+              <span>Vamos falar sobre</span> Brisas Pampulha{' '}
             </h3>
           </div>
 
           <div className={styles.infos}>
             <div className={styles.info}>
-              <p>What was done</p>
+              <p>O que foi feito</p>
 
               <span>
-                Branding <br /> Motion <br /> Graphic design
+                Branding <br /> Motion <br /> Design gráfico
               </span>
             </div>
 
             <div className={styles.info}>
-              <p>Awards and Nomations</p>
+              <p>Prêmios e Indicações</p>
 
               <span>
                 Brazil Design <br /> Awards <br /> Europe Awards <br /> Design
@@ -35,19 +35,19 @@ export const AboutProjectBox = () => {
             </div>
 
             <div className={styles.info}>
-              <p>Creation date</p>
+              <p>Data de criação</p>
 
               <span>
-                April, 2022 <br /> Mordor Design
+                Abril, 2022 <br /> Mordor Design
               </span>
             </div>
           </div>
 
           <div className={styles.footer}>
-            <p>All right reserved for </p>
+            <p>Todos os direitos reservados para </p>
 
             <Image src={Decoration} alt="Decoração" />
-            <p>Mordor Design and experience </p>
+            <p>Mordor Design e experiência </p>
           </div>
         </div>
       </section>

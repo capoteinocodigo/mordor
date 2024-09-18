@@ -32,7 +32,7 @@ const Project = () => {
   return (
     <div className={styles.project}>
       <Head>
-        <title>Mordor | Project</title>
+        <title>Mordor | Projeto</title>
       </Head>
 
       <Header isProjectPage={true} />
@@ -41,14 +41,14 @@ const Project = () => {
         <div className={styles.title}>
           <Image
             src={ProjectPageTitle}
-            alt="Title da pagina escrito mordor do meio e com duas nuvens nas ponta esquerda e direita"
+            alt="Título da página escrito Mordor no meio e com duas nuvens nas pontas esquerda e direita"
           />
         </div>
 
         <div className={styles.banner}>
           <Image
             src={ProjectBanner}
-            alt="Title da pagina escrito mordor do meio e com duas nuvens nas ponta esquerda e direita"
+            alt="Título da página escrito Mordor no meio e com duas nuvens nas pontas esquerda e direita"
           />
         </div>
       </section>
@@ -63,8 +63,8 @@ const Project = () => {
         <div className={styles.title}>
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <h2>
-              A New brand for a unique
-              <br /> group in Brazil
+              Uma nova marca para um
+              <br /> grupo único no Brasil
             </h2>
           </AnimationOnScroll>
 
@@ -76,26 +76,23 @@ const Project = () => {
         <AnimationOnScroll animateIn="animate__fadeInLeft">
           <div className={styles.text}>
             <p>
-              A holding company is much more than the key company that brings
-              together the other ventures; it is the intellectual and synergetic
-              link of strength.
+              Uma holding é muito mais do que a empresa-chave que reúne os outros
+              empreendimentos; é o elo intelectual e sinérgico de força.
             </p>
             <p>
-              It is the company that concentrates the vision and the management
-              of the latent purposes of each enterprise.
+              É a empresa que concentra a visão e a gestão dos propósitos latentes
+              de cada empreendimento.
             </p>
             <p>
-              The Ionic columns of the Greek temples were used to create the
-              brand. The Ionic order was characterized by the elegance and
-              robustness of its ornaments and columns. Moreover, the very
-              concept of columns is present in the brand, as a unit of support
-              and security, making an even closer link with the values and goals
-              of the company.
+              As colunas jônicas dos templos gregos foram usadas para criar a marca.
+              A ordem jônica era caracterizada pela elegância e robustez de seus
+              ornamentos e colunas. Além disso, o próprio conceito de colunas está
+              presente na marca, como uma unidade de suporte e segurança, criando
+              uma conexão ainda mais estreita com os valores e objetivos da empresa.
             </p>
             <p>
-              As a main form it is still possible to see the letter &quot; T
-              &quot; in the construction of the columns, because it is the
-              central letter of the naming.
+              Como forma principal, ainda é possível ver a letra &quot; T &quot; na
+              construção das colunas, pois é a letra central do nome.
             </p>
           </div>
         </AnimationOnScroll>
@@ -111,22 +108,22 @@ const Project = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInUp">
         <section className={styles.typographySection}>
-          <h2>Institutional chrome and typography</h2>
+          <h2>Cromática institucional e tipografia</h2>
 
           <div className={styles.text}>
             <p>
-              The institutional color defined for the brand is mixed with
-              vibrant shades of green, orange and burgundy. The colors were
-              designed to transmit energy and liveliness, values intrinsic to
-              the brand, in addition, an auxiliary color palette was designed
-              for each sub-brand of architecture.
+              A cor institucional definida para a marca é misturada com
+              tons vibrantes de verde, laranja e bordô. As cores foram
+              projetadas para transmitir energia e vivacidade, valores intrínsecos
+              à marca. Além disso, uma paleta de cores auxiliar foi projetada
+              para cada submarca de arquitetura.
             </p>
 
             <p>
-              The typographic family chosen for the brand was Code Pro, a
-              refined, modern option, with a contemporary style that conveys
-              confidence and security, in addition to providing a good
-              application for title and text both online and offline.
+              A família tipográfica escolhida para a marca foi a
+              Code Pro, uma opção refinada e moderna, com um estilo
+              contemporâneo que transmite confiança e segurança, além de proporcionar
+              uma boa aplicação para títulos e textos tanto online quanto offline.
             </p>
           </div>
 
@@ -139,7 +136,7 @@ const Project = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInRight">
         <div className={styles.projectPattern}>
-          <Image src={PatternProject} alt="Pattern da empresa" />
+          <Image src={PatternProject} alt="Padrão da empresa" />
         </div>
       </AnimationOnScroll>
 
@@ -156,7 +153,7 @@ const Project = () => {
           <Image src={BrindeProject} alt="Brinde da empresa" />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeft">
-          <Image src={BookProject} alt="Book da empresa" />
+          <Image src={BookProject} alt="Livro da empresa" />
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__fadeInRight">

@@ -32,7 +32,7 @@ export const Header = ({ isProjectPage = false }: HeaderProps) => {
             ></button>
             <li>
               {isProjectPage ? (
-                <a href="/">Welcome to Mordor</a>
+                <a href="/">Bem-vindo a Mordor</a>
               ) : (
                 <Link
                   offset={0}
@@ -43,14 +43,14 @@ export const Header = ({ isProjectPage = false }: HeaderProps) => {
                   href="#welcome"
                   onClick={handleMenuButton}
                 >
-                  Welcome to Mordor
+                  Bem-vindo a Mordor
                 </Link>
               )}
             </li>
 
             <li>
               {isProjectPage ? (
-                <a href="/">Service</a>
+                <a href="/">Serviço</a>
               ) : (
                 <Link
                   offset={0}
@@ -61,14 +61,14 @@ export const Header = ({ isProjectPage = false }: HeaderProps) => {
                   href="#service"
                   onClick={handleMenuButton}
                 >
-                  Service
+                  Serviço
                 </Link>
               )}
             </li>
 
             <li>
               {isProjectPage ? (
-                <a href="/">Our cases</a>
+                <a href="/">Nossos casos</a>
               ) : (
                 <Link
                   offset={0}
@@ -79,7 +79,7 @@ export const Header = ({ isProjectPage = false }: HeaderProps) => {
                   href="#ourCase"
                   onClick={handleMenuButton}
                 >
-                  Our cases
+                  Nossos casos
                 </Link>
               )}
             </li>
@@ -94,12 +94,12 @@ export const Header = ({ isProjectPage = false }: HeaderProps) => {
                 href="#contact"
                 onClick={handleMenuButton}
               >
-                Contact
+                Contato
               </Link>
             </li>
           </ul>
         </nav>
-        <ButtonBackground buttonText={'Contact Now'} />
+        <ButtonBackground buttonText={'Contate Agora'} />
       </div>
     </header>
   )

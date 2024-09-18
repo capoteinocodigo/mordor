@@ -32,7 +32,7 @@ const Project = () => {
   return (
     <div className={styles.project}>
       <Head>
-        <title>Mordor | Project</title>
+        <title>Mordor | Projeto</title>
       </Head>
 
       <Header isProjectPage={true} />
@@ -41,14 +41,14 @@ const Project = () => {
         <div className={styles.title}>
           <Image
             src={ProjectPageTitle}
-            alt="Title da pagina escrito mordor do meio e com duas nuvens nas ponta esquerda e direita"
+            alt="Título da página escrito Mordor no meio e com duas nuvens nas pontas esquerda e direita"
           />
         </div>
 
         <div className={styles.banner}>
           <Image
             src={ProjectBanner}
-            alt="Title da pagina escrito mordor do meio e com duas nuvens nas ponta esquerda e direita"
+            alt="Título da página escrito Mordor no meio e com duas nuvens nas pontas esquerda e direita"
           />
         </div>
       </section>
@@ -63,7 +63,7 @@ const Project = () => {
         <div className={styles.title}>
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <h2>
-              A new Brazilian perfumery:
+              Uma nova perfumaria brasileira:
               <br /> Global Sense
             </h2>
           </AnimationOnScroll>
@@ -76,20 +76,19 @@ const Project = () => {
         <AnimationOnScroll animateIn="animate__fadeInLeft">
           <div className={styles.text}>
             <p>
-              A brand with the purpose of changing lives and providing the
-              possibility of financial growth, this is Global Sense.
+              Uma marca com o propósito de mudar vidas e proporcionar a
+              possibilidade de crescimento financeiro, esta é a Global Sense.
             </p>
             <p>
-              The newest Brazilian perfumery seeks to create an ecosystem of
-              consultants who sell its products, and thus create a community.
+              A mais nova perfumaria brasileira busca criar um ecossistema de
+              consultores que vendem seus produtos e, assim, criar uma comunidade.
             </p>
             <p>
-              The Global Senses brand uses as a conceptual pillar the idea of
-              chain transformation through the good connections we make in the
-              course of life. In addition, the brand seeks to emphasize the
-              propagating power of a good idea, by placing the &quot;S&quot; of
-              the name being created by connections and at the same time being
-              from the center.
+              A marca Global Sense usa como pilar conceitual a ideia de
+              transformação em cadeia por meio das boas conexões que fazemos ao
+              longo da vida. Além disso, a marca busca enfatizar o poder
+              propagador de uma boa ideia, colocando o &quot;S&quot; do nome
+              sendo criado por conexões e ao mesmo tempo sendo do centro.
             </p>
           </div>
         </AnimationOnScroll>
@@ -105,20 +104,20 @@ const Project = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInUp">
         <section className={styles.typographySection}>
-          <h2>Institutional chrome and typography</h2>
+          <h2>Cromática institucional e tipografia</h2>
 
           <div className={styles.text}>
             <p>
-              The institutional chroma defined for the brand is a variation of
-              shades of green with the addition of 70% and 65% gray to give
-              sobriety and at the same time an excellent contrast.
+              A cromática institucional definida para a marca é uma variação
+              de tons de verde com a adição de 70% e 65% de cinza para dar
+              sobriedade e, ao mesmo tempo, um excelente contraste.
             </p>
 
             <p>
-              The typographic family chosen for the brand was Code Pro, a
-              refined, modern option with a contemporary style that conveys
-              confidence and security, as well as providing a good application
-              for titles and text online and offline.
+              A família tipográfica escolhida para a marca foi a
+              Code Pro, uma opção refinada e moderna, com um estilo
+              contemporâneo que transmite confiança e segurança, além de proporcionar
+              uma boa aplicação para títulos e textos tanto online quanto offline.
             </p>
           </div>
 
@@ -131,7 +130,7 @@ const Project = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInRight">
         <div className={styles.projectPattern}>
-          <Image src={PatternProject} alt="Pattern da empresa" />
+          <Image src={PatternProject} alt="Padrão da empresa" />
         </div>
       </AnimationOnScroll>
 
@@ -148,7 +147,7 @@ const Project = () => {
           <Image src={BrindeProject} alt="Brinde da empresa" />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeft">
-          <Image src={BookProject} alt="Book da empresa" />
+          <Image src={BookProject} alt="Livro da empresa" />
         </AnimationOnScroll>
 
         <AnimationOnScroll animateIn="animate__fadeInRight">

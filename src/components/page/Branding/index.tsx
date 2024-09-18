@@ -59,12 +59,11 @@ export const Branding = () => {
   return (
     <section className={styles.branding} id="service">
       <h2>
-        <span>Brand your </span>business for success
+        <span>Construa sua </span>marca para o sucesso
       </h2>
 
       <p>
-        Branding, animation or innovation, here we create what your company
-        needs
+        Branding, animação ou inovação, aqui criamos o que sua empresa precisa
       </p>
 
       <div className={styles.separator}>
@@ -148,7 +147,7 @@ export const Branding = () => {
       </AnimationOnScroll>
 
       <div className={styles.button}>
-        <ButtonBackground buttonText={'Contact Now'} />
+        <ButtonBackground buttonText={'Contate Agora'} />
       </div>
     </section>
   )

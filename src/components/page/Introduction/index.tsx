@@ -17,19 +17,19 @@ export const Introduction = () => {
 
         <div className={styles.content}>
           <h2>
-            Welcome to <span>Mordor</span>
+            Bem-vindo à <span>Mordor</span>
           </h2>
 
           <p>
-            Mordor is a branding and brand experience studio. What does that
-            mean? Here we create not only your brand, but the entire visual and
-            textual universe so that our customer has the best possible
-            experience with your company through your brand.
+            Mordor é um estúdio de branding e experiência de marca. O que isso
+            significa? Aqui, criamos não apenas sua marca, mas todo o universo
+            visual e textual para que nossos clientes tenham a melhor experiência
+            possível com a sua empresa através da sua marca.
           </p>
 
-          <p>At Mordor we create iconic brands for unique customers</p>
+          <p>Na Mordor, criamos marcas icônicas para clientes únicos</p>
 
-          <ButtonBackground buttonText={'Contact Now'} />
+          <ButtonBackground buttonText={'Contate Agora'} />
         </div>
       </div>
     </section>
